@@ -1,0 +1,62 @@
+.Header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 0 0 10px;
+  background: #fff;
+  padding: 10px 0;
+  img {
+    width: 50px;
+  }
+  .search {
+    margin-left: 20px;
+    position: relative;
+    .iconSearch {
+      position: absolute;
+      width: 20px;
+      margin: 8px 0 0 12px;
+    }
+    .inputSearch {
+      padding: 4px 0 4px 40px;
+      border-radius: 20px;
+    }
+  }
+  .header_center {
+    margin-left: 30%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 40px;
+      margin: 0 40px;
+      opacity: 0.9;
+    }
+  }
+  .header_right {
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 40px;
+      margin: 0 20px;
+      opacity: 0.9;
+      background: #cecdcd;
+      padding: 10px;
+      border-radius: 100%;
+    }
+  }
+  i:hover {
+    cursor: pointer;
+    background: #c2bdbd;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  .groupPeopleIconHeader:hover {
+    cursor: pointer;
+    background: #c2bdbd;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+}
